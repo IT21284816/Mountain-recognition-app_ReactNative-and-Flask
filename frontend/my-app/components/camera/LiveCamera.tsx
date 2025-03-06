@@ -56,7 +56,7 @@ export default function LiveCamera() {
         type: "image/jpeg",
       } as any);
 
-      const response = await axios.post("http://192.168.8.102:5000/predict", formData, {
+      const response = await axios.post("https://7ec2-175-157-24-89.ngrok-free.app/predict", formData, {                              //http://192.168.8.102:5000/predict
         headers: {
           "Content-Type": "multipart/form-data",
         },

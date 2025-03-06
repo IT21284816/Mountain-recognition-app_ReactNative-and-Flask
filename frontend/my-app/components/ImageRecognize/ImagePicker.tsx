@@ -51,7 +51,7 @@ export default function ImagePickerExample() {
         } as any);
       }
 
-      const result = await fetch("http://192.168.8.102:5000/predict", {
+      const result = await fetch("https://7ec2-175-157-24-89.ngrok-free.app/predict", {                       //"http://192.168.8.102:5000/predict"
         method: "POST",
         body: formData,
       });

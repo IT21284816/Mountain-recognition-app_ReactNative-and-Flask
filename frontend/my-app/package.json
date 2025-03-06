@@ -15,23 +15,25 @@
     "axios": "^1.7.9",
     "expo": "~52.0.25",
     "expo-camera": "~16.0.16",
-    "expo-document-picker": "^13.0.3",
-    "expo-file-system": "~18.0.10",
     "expo-image-picker": "^16.0.4",
-    "expo-intent-launcher": "^12.0.2",
-    "expo-media-library": "~17.0.5",
     "expo-status-bar": "~2.0.1",
     "my-app": "file:",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.6",
-    "react-native-image-picker": "^7.2.3",
     "react-native-web": "~0.19.13"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
     "typescript": "^5.3.3"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "listUnknownPackages": false
+      }
+    }
   },
   "private": true
 }
