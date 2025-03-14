@@ -1,0 +1,4 @@
+runtime: python311 # Use Python 3.9 or the latest version
+entrypoint: gunicorn -b :$PORT app:app  # Use Gunicorn to run Flask
+
+instance_class: F4
