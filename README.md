@@ -2,7 +2,7 @@
 
 🚀 A real-time mountain recognition and information retrieval system for Sri Lankan mountains. The app uses a **React Native** frontend and a **Flask** backend deployed on **Google Cloud** to identify mountains and display relevant details.
 
-![Untitled design (1)](https://github.com/user-attachments/assets/daab44e5-f4d3-4917-8dd2-59894ae725ae)
+![Untitled design (1)](https://github.com/user-attachments/assets/9ae985c9-c2b5-4051-a105-84537e17a47d)
 
 
 ---
@@ -38,8 +38,13 @@
 ---
 
 ## 🚀 Deployment
-The backend is deployed on Google Cloud and can be accessed at:  
+The backend is deployed on **Google Cloud** and can be accessed at:  
 🔗 **[Flask Backend](https://flask-app-453711.el.r.appspot.com)**
+
+### ☁️ Google Cloud Deployment
+- The **Flask backend** is deployed using **Google App Engine**.
+- The deployment link: **https://flask-app-453711.el.r.appspot.com**
+- The **React Native frontend** is currently running locally but can be deployed using **Firebase Hosting** or **Google Cloud Run**.
 
 ---
 
